@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import NavBar from './NavBar';
-import Logo from '../images/logo_edited_2.jpg';
+import Logo from '../images/new_kakadoon.jpg';
 
 export default function Header() {
  

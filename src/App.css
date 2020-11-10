@@ -31,7 +31,7 @@
   margin-left: 20px;
   max-width: 200px;
   border-style: solid;
-  border-color: blue;
+  border-color: rebeccapurple; 
 }
 
 
@@ -67,3 +67,24 @@ li {
   right: 0;
   padding: 20px;
 }
+
+
+.team__image{
+  float: left;
+  max-width: 150px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.clear {
+  clear: both;
+  
+}
+
+/* .team__text {
+  
+} */
+
+/* team__row {
+  display: block;
+} */
