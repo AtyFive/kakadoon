@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 .App{
   /* background-color: #d34242; */
   display: flex;
@@ -6,8 +9,9 @@
 
 
 .app__body {
-  background-color: blanchedalmond;
-  min-width: 600px;
+  background-color: rgb(225, 229, 233);
+  border: 1px solid lightblue;
+  width: 800px;
 
   margin: 0 auto;
   
@@ -71,9 +75,9 @@ li {
 
 .team__image{
   float: left;
-  max-width: 150px;
+  max-width: 200px;
   margin-right: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .clear {
@@ -81,10 +85,21 @@ li {
   
 }
 
-/* .team__text {
-  
-} */
+.team__text {
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.58;
+  color: #4d5156;
+}
 
-/* team__row {
-  display: block;
-} */
+
+.team__row h2 {
+  color: blueviolet;
+  padding-top: 40px;
+  
+}
+
+h3 {
+  padding-top: 20px;
+}
